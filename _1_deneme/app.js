@@ -19,3 +19,8 @@ function twoParameters(firstName="",lastName=""){
     console.log(`Merhaba ${firstName} ${lastName}`);
 }
 twoParameters("Furkan","Yiğit");
+
+// 1 ile 21 arasında sayılar üretelim. (21 dahil olmasın.)
+let value;
+value=Math.ceil(Math.random()*20);
+console.log(value);
