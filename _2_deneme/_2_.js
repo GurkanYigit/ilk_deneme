@@ -34,3 +34,25 @@ value=team[0];
 console.log(value);
 value=team[1].name;
 console.log(value);
+
+function merhaba(name="Bilgi Yok",age="Bilgi Yok"){
+    console.log(`İsim: ${name} Yaş: ${age}`);
+}
+merhaba("Furkan",28);
+merhaba("Gürkan");
+merhaba("Orhan",24);
+merhaba();
+
+function square(x){
+    return x*x;
+}
+function cube(x){
+    return x*x*x;
+}
+console.log(cube(square(2)));
+
+function isim(){
+    return "Merhaba";
+}
+console.log(isim());
+
